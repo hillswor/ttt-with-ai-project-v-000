@@ -53,6 +53,7 @@ class Game
   end
 
   def turn
+    "Please pick a square 1-9"
     @user_input = current_player.move(@board)
     if @board.valid_move?(@user_input)
       @board.update(@user_input, current_player)
