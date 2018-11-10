@@ -18,3 +18,5 @@ def greeting
       Game.new(player_1, player_2)
     end
 end
+
+greeting
