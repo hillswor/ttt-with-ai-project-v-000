@@ -17,5 +17,4 @@ def greeting
       player_2 = Players::Human.new("O")
       Game.new(player_1, player_2)
     end
-  end
 end
